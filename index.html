@@ -1,0 +1,36 @@
+<!-- index.html -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thi Trắc Nghiệm Demo</title>
+    <link rel="stylesheet" href="./assets/style/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Thi Trắc Nghiệm</h1>
+        <form id="quiz-form">
+            <label for="full-name">Họ và Tên:</label>
+            <input type="text" id="full-name" name="full-name" required>
+            <label for="dob">Ngày Tháng Năm Sinh:</label>
+            <input type="date" id="dob" name="dob" required>
+            <label for="student-id">Mã Sinh Viên:</label>
+            <input type="text" id="student-id" name="student-id" required>
+            <label for="class">Lớp:</label>
+            <input type="text" id="class" name="class" required>
+            <button type="submit">Bắt Đầu Thi</button>
+        </form>
+        <div id="quiz" style="display: none;">
+            <button id="submit-button" style="display: none;">Nộp Bài</button>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
